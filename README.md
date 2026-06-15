@@ -1,9 +1,6 @@
 # ColonelAdaptAI: Prototype-Guided Continual Learning with Informative Perturbation Networks
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-red.svg)]()
-[![License](https://img.shields.io/badge/License-MIT-green.svg)]()
-[![Research Prototype](https://img.shields.io/badge/Research-Continual%20Learning-orange.svg)]()
 
 ## Overview
 
@@ -446,9 +443,7 @@ This combination enables stable continual adaptation while maintaining high plas
 ```bibtex
 @software{ColonelAdaptAI2026,
   title={ColonelAdaptAI: Prototype-Guided Continual Learning with Informative Perturbation Networks},
-  author={Your Name},
   year={2026},
-  url={https://github.com/yourusername/ColonelAdaptAI}
 }
 ```
 
@@ -458,23 +453,3 @@ This combination enables stable continual adaptation while maintaining high plas
 
 This project is released under the MIT License.
 
----
-
-# Acknowledgements
-
-This implementation draws inspiration from major continual learning research directions including:
-
-* Elastic Weight Consolidation (EWC)
-* Gradient Episodic Memory (GEM)
-* Averaged GEM (A-GEM)
-* Dark Experience Replay (DER)
-* Maximally Interfered Retrieval (MIR)
-* Prototype-based Representation Learning
-
----
-
-### Developed for Continual Learning Research and Benchmarking
-
-### Powered by PyTorch
-
-###
