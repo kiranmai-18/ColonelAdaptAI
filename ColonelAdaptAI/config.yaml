@@ -1,0 +1,47 @@
+seed: 42
+device: auto
+experiment:
+  dataset: split_mnist
+  output_dir: results
+  num_workers: 2
+  method: colonel
+training:
+  epochs_per_task: 2
+  batch_size: 128
+  lr_first_task: 0.001
+  lr_next_tasks: 0.0005
+  weight_decay: 0.0001
+  early_stop_patience: 0
+model:
+  backbone: auto
+  hidden_dim: 128
+  task_embedding_dim: 32
+  perturb_init_std: 0.01
+  max_tasks: 20
+loss:
+  ewc_lambda: 10.0
+  proto_lambda: 0.2
+  trust_lambda: 0.01
+  contrastive_lambda: 0.0
+  trust_delta: 1.0
+  proto_temperature: 0.07
+memory:
+  prototypes_per_class: 1
+  fisher_samples: 512
+  store_raw_replay: false
+baselines:
+  run: false
+  methods:
+  - finetune
+  - replay
+  - agem
+  - gem
+  - der
+  - derpp
+  - mir
+  memory_size: 2000
+  replay_batch_size: 128
+  der_alpha: 0.5
+  der_beta: 0.5
+  mir_candidates: 64
+  mir_k: 128
