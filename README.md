@@ -169,7 +169,7 @@ ColonelAdaptAI/
 ## Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/ColonelAdaptAI.git
+git clone https://github.com/kiranmai-18/ColonelAdaptAI
 
 cd ColonelAdaptAI
 ```
